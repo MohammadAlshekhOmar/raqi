@@ -7,12 +7,12 @@ use Illuminate\Support\Facades\DB;
 
 class ArticleService
 {
-    public function all($editor_id = null)
+    public function all($withTrashed = 1)
     {
-        if ($editor_id) {
-            return Article::withTrashed()->with('media')->where('editor_id', $editor_id)->get();
+        if ($withTrashed) {
+            return Article::with(['media'])->withTrashed()->get();
         } else {
-            return Article::withTrashed()->with('media')->get();
+            return Article::with(['media'])->paginate(8);
         }
     }
 

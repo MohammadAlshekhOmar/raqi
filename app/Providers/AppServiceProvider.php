@@ -2,10 +2,8 @@
 
 namespace App\Providers;
 
-use App\Enums\PageEnum;
 use App\Models\Admin;
 use App\Models\Editor;
-use App\Models\Page;
 use App\Models\User;
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Blade;

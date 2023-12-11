@@ -16,6 +16,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::group(['prefix' => 'articles'], function () {
     Route::controller(ArticleController::class)->group(function () {
-        Route::get('getByUser', 'getByUser');
+        Route::get('all', 'all');
     });
 });

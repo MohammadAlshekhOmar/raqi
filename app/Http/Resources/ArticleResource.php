@@ -18,7 +18,7 @@ class ArticleResource extends JsonResource
         $res['title'] = $this->title;
         $res['text'] = $this->text;
         $res['image'] = $this->image;
-        $res['user'] = UserResource::make($this->user);
+        $res['editor'] = EditorResource::make($this->editor);
         return $res;
     }
 }
