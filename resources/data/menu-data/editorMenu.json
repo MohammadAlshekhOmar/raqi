@@ -1,0 +1,33 @@
+{
+    "menu": [
+        {
+            "url": "editor/cp",
+            "name": "statistics",
+            "icon": "home",
+            "slug": [
+                "cp"
+            ],
+            "permissions": [
+                "VIEW_ARTICLES"
+            ]
+        },
+        {
+            "navheader": "articles",
+            "slug": [],
+            "permissions": [
+                "VIEW_ARTICLES"
+            ]
+        },
+        {
+            "url": "editor/articles/index",
+            "name": "articles",
+            "icon": "box",
+            "slug": [
+                "articles"  
+            ],
+            "permissions": [
+                "VIEW_ARTICLES"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,56 @@
+{
+    "menu": [
+        {
+            "url": "admin/cp",
+            "name": "statistics",
+            "icon": "home",
+            "slug": [
+                "cp"
+            ]
+        },
+        {
+            "navheader": "users",
+            "slug": []
+        },
+        {
+            "url": "admin/users/index",
+            "name": "users",
+            "icon": "users",
+            "slug": [
+                "users"
+            ]
+        },
+        {
+            "navheader": "roles_editors",
+            "slug": []
+        },
+        {
+            "url": "admin/roles/index",
+            "name": "roles",
+            "icon": "shield",
+            "slug": [
+                "roles"
+            ]
+        },
+        {
+            "url": "admin/editors/index",
+            "name": "editors",
+            "icon": "user-plus",
+            "slug": [
+                "editors"
+            ]
+        },
+        {
+            "navheader": "articles",
+            "slug": []
+        },
+        {
+            "url": "admin/articles/index",
+            "name": "articles",
+            "icon": "box",
+            "slug": [
+                "articles"
+            ]
+        }
+    ]
+}
